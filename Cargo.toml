@@ -1,0 +1,10 @@
+[package]
+name = "ovr_mumble_link"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mumble-link = "0.2.0"
+ovr_overlay = { path = "../ovr_overlay" }
+ovr_overlay_sys = { path = "../ovr_overlay/sys" }
+rand = "0.8.5"
